@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fill">
+
+    <EditText
+        android:id="@+id/editTextRoll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Roll"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@+id/editTextRoll"/>
+
+    <EditText
+        android:id="@+id/editTextMob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"
+        android:layout_below="@+id/editTextPass"/>
+
+    <EditText
+        android:id="@+id/editTextAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_below="@+id/editTextMob"/>
+
+    <EditText
+        android:id="@+id/editTextQual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qualification"
+        android:layout_below="@+id/editTextAdd"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextQual"
+        android:layout_marginLeft="50sp"
+        android:text="REGISTER" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextQual"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/button2"
+        android:text="Show Details" />
+</RelativeLayout>
